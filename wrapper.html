@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="{{page.lang.iso_code|default:'en'}}"{% if page.lang.is_rtl %} dir="rtl"{% endif %}>
 <head>
+    <!-- nifty business -->
     <meta charset="utf-8">
     <title>{% block title %}{{ page.title }} | {% filter ak_text:"org_name" %}{% client_name %}{% endfilter %}{% endblock %}</title>
     <script>startTime=new Date()</script>
